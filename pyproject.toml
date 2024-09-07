@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "demo_ai"
+version = "0.1.0.dev0"
+description = ""
+authors = ["Hendri Karisma <hendri.karisma@stmik.tazkia.ac.id>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+uvicorn = "^0.30.6"
+jupyter = "^1.1.1"
+matplotlib = "^3.9.2"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.3.2"
+pytest-mock = "^3.14.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
